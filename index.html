@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Barry's Super Happy Website</title>
+        <meta name="author" content="Barry">
+        <meta name="description" content="Api project">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script defer src="index.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <h1>Barry's Super Happy Website</h1>
+        <h2>Cheer up your miserable life!!</h2><br>
+        <audio id="myAudio">
+            <source src="erik satie.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <img id ="center" src="https://www.knowledgeformen.com/wp-content/uploads/2013/09/happyperson.jpg" alt = "happy" width="250" height="186">
+
+        <p><strong>Feeling Stressed? Play some relaxing music:</strong></p>
+        <button onclick="playAudio()" type="button">Play Audio</button>
+        <button onclick="pauseAudio()" type="button">Pause Audio</button><br><br>
+
+        
+        <p><strong>Get Inspired by a quote from Kanye West:</strong></p>
+
+        <div id="center">
+            <img src="https://media.tenor.com/VUYXIwEuzD8AAAAd/kanye.gif" alt = "Ye Himself" width="200" height="200">
+            <img src="https://media4.giphy.com/media/8FVAufI9rQTptuJ77T/giphy.gif" alt = "Ye Himself" width="340" height="200">
+            <img src="https://media0.giphy.com/media/cSozWbWHEfUis/giphy.gif" alt = "Ye Himself" width="333" height="200">
+        </div>
+        
+
+        <div class="container2">
+            <div class="quote">
+              <p></p>
+            </div>
+            <button>Get another Quote</button>
+        </div><br>
+
+        <p><strong>Maybe this video will help:</strong></p><br>
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/kIF3BYBXZWA" title="Happiest Video EVER!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+    
+
+        <p><strong>Still not happy? Time to get serious, let's see some cats:</strong></p><br>  
+
+
+        <button id="give-cat">I NEED A CAT!!</button>
+        <div id="cat-pic">
+            <!--cat pic here-->
+        </div><br>
+
+        <p><strong>How about a joke to cheer you up?</strong></p>
+
+        <div class="container">
+            <div class="joke">
+              <p></p>
+            </div>
+            <button>Get another Joke</button>
+          </div>
+
+
+        <p><strong>Still Not Enough? Pretend you dont have any troubles and play this game instead:</strong></p>
+        <button type="button" onclick="loadGame();">Play Game</button><br>
+        <div id ="game"></div>
+
+
+    </body>
+</html>
